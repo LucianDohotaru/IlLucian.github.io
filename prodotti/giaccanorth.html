@@ -46,7 +46,51 @@
         </select>
     </form></li>
 </ul>
-<button id="buyButton">Acquista ora</button>
+<button onclick="buyNowWindow()"id="buyButton">Acquista ora</button>
 </div>
+<form id="dialog" class="form-horizontal">
+	<fieldset>
+	
+	<!-- Form Name -->
+	<legend>Inserisci dati della carta</legend>
+	
+	<!-- Text input-->
+	<div class="form-group">
+	  <label class="col-md-4 control-label" for="textinput">Inserisci carta</label>  
+	  <div class="col-md-5">
+	  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+		
+	  </div>
+	</div>
+	
+	<!-- Text input-->
+	<div class="form-group">
+	  <label class="col-md-4 control-label" for="textinput">CVC</label>  
+	  <div class="col-md-4">
+	  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+		
+	  </div>
+	</div>
+	
+	<!-- Text input-->
+	<div class="form-group">
+	  <label class="col-md-4 control-label" for="textinput">Data scadenza</label>  
+	  <div class="col-md-4">
+	  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+		
+	  </div>
+	</div>
+	
+	<!-- Text input-->
+	<div class="form-group">
+	  <label class="col-md-4 control-label" for="textinput">Titolare</label>  
+	  <div class="col-md-4">
+	  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+		
+	  </div>
+	</div>
+	<input type="submit">
+	</fieldset>
+	</form>
 </body>
 </html>

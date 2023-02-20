@@ -319,13 +319,13 @@ width:50px;
 	padding: 0 10px;
 	position: relative;
 }
-#body.home .header div img.satellite {
+#iconGrande {
 	display: block;
-	left: 10px;
+	left: 0vw;
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	top: 41px;
+	top: 0vh;
 	width: auto;
 	z-index: 50;
 }
@@ -344,6 +344,25 @@ width:50px;
 	text-transform: uppercase;
 	width: 503px;
 	z-index: 60;
+}
+#dialog{
+	visibility: hidden;
+	color: #FFFFFF;
+	display: block;
+	float: right;
+	font-family: Arial;
+	font-size: 43px;
+	font-weight: normal;
+	line-height: 43px;
+	margin: 0 0 36px;
+	padding: 0 146px 0 506px;
+	position: relative;
+	text-align: right;
+	text-transform: uppercase;
+	width: 50vw;
+	z-index: 60;
+	position:absolute;
+	top:110vh;
 }
 #body.home .header div h2 {
 	color: #FFFFFF;
